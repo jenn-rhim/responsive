@@ -1,0 +1,208 @@
+body {
+  font-family: "helvetica neue", arial, verdana, sans-serif;
+  letter-spacing:0.04em;
+  font-weight:300;
+}
+
+a:link {
+  color:#d60909;
+  text-decoration:none;
+}
+
+a:visited {
+  color:#d60909;
+}
+
+a:hover {
+  color:#008def;
+  transition: color 1s ease;
+}
+
+a:active {
+  color:#888;
+}
+
+.container {
+  width:92%;
+  min-width:400px;
+  max-width:1300px;
+  margin: 0 auto 0 auto;
+}
+
+.header-title {
+  margin:50px 0 10px 0;
+}
+
+.page-title {
+  color:#d60909;
+  font-size:2.2em;
+  margin-right:20px;
+}
+
+.tagline {
+  color:#b6b6b6;
+}
+
+.navbar {
+  margin:0 auto 0 auto;
+  overflow:hidden;
+}
+
+.col-2, .col-8, .col-4 {
+  float:left;
+  box-sizing: border-box;
+}
+
+.col-2 {
+  width:16.5%;
+  min-width:130px;
+  height:45px;
+  background-color:#000;
+  margin:1px 1px 0 0;
+  color:#fff;
+  text-align: center;
+  line-height:45px;
+}
+
+.col-2:hover {
+  background-color:#8e99a1;
+  transition: background-color 200ms ease;
+}
+
+
+a.nav-txt {
+  padding:20px 10px 20px 10px;
+  color:#fff;
+  cursor:pointer;
+}
+
+.nav-txt:hover {
+  color:#acd373;
+
+}
+
+
+.col-8 {
+  width:66.6666%;
+}
+
+.article {
+    padding:50px 20px 0 0;
+    overflow:auto;
+    overflow:hidden;
+}
+
+#date {
+  font-size:1.5em;
+  color:#cacaca;
+}
+
+.article-title {
+  font-size:1.6em;
+  margin:10px 0;
+}
+
+img {
+  width:100%;
+
+}
+
+.excerpt {
+  margin:25px 0;
+  line-height:25px;
+}
+
+.initial {
+  font-size:5em;
+  color:#eee;
+  float: left;
+  width: 0.7em;
+  line-height: 85%;
+  margin:0 15px 0 0;
+}
+
+.more {
+  font-weight:400;
+  float:right;
+
+}
+
+.divider {
+  float:left;
+  clear:left;
+  width:100%;
+  height:1px;
+  margin-top:30px;
+  background-color:#eee;
+
+}
+
+.footer-box {
+  float:left;
+  margin:20px 0;
+  font-size:0.8em;
+}
+
+.footer {
+  padding:0;
+}
+
+.footer li{
+  list-style:none;
+  display:inline;
+  color:#c5c5c5;
+}
+
+.copyright {
+  clear:left;
+  color:#afafaf;
+  margin:30px 0 100px 0;
+}
+
+
+.col-4 {
+  width:33.33333%;
+  padding:90px 0 0 15px;
+}
+
+.about, .posts {
+  color:#888;
+  line-height:22px;
+}
+
+.advt {
+  margin-top:100px;
+  clear:left;
+}
+
+.posts {
+  margin-top:60px;
+  clear:left;
+}
+
+
+.post-list {
+  padding:10px 0 0 20px;
+}
+
+@media(max-width:900px) {
+  .col-8 {
+    width:100%;
+    padding:0 25px;
+  }
+  .col-4 {
+    width:100%;
+    padding:0 25px;
+  }
+  .navbar {
+    margin:0 20px;
+  }
+  .header-title {
+    text-align:center;
+  }
+  .footer-box {
+      margin-left:auto;
+      margin-right:auto;
+      padding:0 20px
+  }
+}
